@@ -1,4 +1,6 @@
-# Weather App
+# Project: Weather App
+For week three of the Technigo bootcamp (third week of the JavaScript sprint) our assignment was to create a weather web app to practice fetching APIs and displaying the fetched date. This project was made in collaboration with Petra Söderström.
+
 The assignment:
 ✓ You should fetch data from the API using `fetch()` in JavaScript
 
@@ -11,10 +13,9 @@ The assignment:
 ✓ Steps 1 & 2 should be done together and step 3 should be done in branches
 
 ## The problem
-We fetched data via API from openweather and converted it to JSON. Afterwards we injected data in placeholders using inner HTML. Furthermore we created a filter so that the current weather corresponds to the background as well as the main image and description. Then we worked on creating a weekly weather forecast and polished the project with a responsive design and added additional CSS.
+The user is able to use a city from a list for which to display the weather forcast. We fetched data via API from openweathermap.org and converted it to JSON. Afterwards we injected data in placeholders using .innerHTML. Furthermore we conditionally render the background image and icons depending on the weather and there is also a weekly weather forecast. The site is fully responsive.
 
-If we had more time we would likt to show the data from the loca time zone.
+If we had more time we would like to show time as local time in the selected city and have a better design for the landing page aswell as implement functionallity for displaying weather using the users location.
+
 ## View it live
 at Netlify: https://hilarious-tarsier-00acac.netlify.app
-
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
